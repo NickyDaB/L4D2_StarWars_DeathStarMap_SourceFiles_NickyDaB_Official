@@ -1,0 +1,6 @@
+"Decal"
+{
+	"$basetexture" "Users/Nick/Desktop/sw death star ref/texture raw/textures/ds_decal_02"
+	"$additive" 1
+	"$translucent" 1
+}

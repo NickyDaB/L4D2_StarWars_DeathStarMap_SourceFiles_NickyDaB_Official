@@ -1,0 +1,90 @@
+// Mission files describe the metadata needed by campaign-specific add-ons so they can be
+// integrated into Left4Dead. The data in this file is used by the game UI, matchmaking and server.
+// Although you may provide multiple Campaigns in one add-on by putting more than one .TXT file 
+// in the missions folder, it's generally a good idea to stick to one per add-on.
+//
+// HOW TO DEBUG MISSION FILES:
+//	In the console set "developer 2"
+//	Then type "mission_reload"
+// This will make the game reload all the mission files and print out every chapter for every mode it
+// finds.  It's very useful to ensure that your mission file is being correctly read.
+
+"mission"
+{
+	// Use a short name, since it is used as a tag on the servers for matching
+	// your campaign when looking for a dedicated server.  Generally it should
+	// be something unique.  One suggestion to is use your initials and a short
+	// abbreviated name for your campaign. Avoid spaces and special characters.
+	// Do not change the name when you create a revision, as the matchmaking
+        // system will consider it a different campaign. Instead, use "Version" and 
+        // "DisplayTitle" below to indicate revisions.
+	"Name"		"deathstar"
+
+	// The version number is used when finding campaigns on dedicated servers
+	// and in matchmaking. If you try to connect to someone in matchmaking
+	// who has a newer version, you will be directed to download the new
+	// version.  You must increment this to the next integer (whole numbers)every
+        // time you release an update. (I.E. 1, 2, 3, 4, etc.)
+	"Version"       "5"
+
+	// Author is displayed in the UI when people see others playing your
+	// campaign.
+	"Author"	"Nick Buonarota"
+
+	// Website is extremely important as people will automatically be sent
+	// to this URL if they try to join a friend running your campaign.  This
+	// should be the home page for your campaign and it should provide a
+	// description, a link to download it, and installation instructions.
+	"Website"	"http://people.rit.edu/nab4839/levels/hammer_deathStar.html"
+
+	// This name is used when referring to the campaign in the UI. 
+	"DisplayTitle"	"DeathStar_v05"
+	"Description"  	"That's no moon... DEMO: This is a work in progress map. See how long you can last in this survival map on the deathstar."
+
+	// Vmt shown behind the end credits when your campaign completes.
+        // Note: This item needs to have "vgui\" at the front. It is assumed
+	// for the poster and the map thumbnails.
+ 	//"OuttroImage"	"vgui\OutroTitle_Deadline2"
+
+	// Loading poster data
+	//
+	// Note that "posterTitle" and "posterTagline" are often blank as
+	// the poster usually includes these in the poster image itself.
+	// If you do not provide a poster, a generic default will be used.
+	"poster"
+	{
+		"posterImage"		"LoadingScreen_DeathStar"
+                //Note L4D2 does not position player names over the poster.
+
+	}
+
+	// The modes section lists each of your campaign maps and each mode
+	// they support.  Depending on how you set up your campaign maps,
+	// you can reuse the same bsp for different modes as is the case with 
+        // coop and versus in this example. This requires setting up entities
+        // that show up or operate differently for different modes.
+        //
+	// The following modes are supported: "coop", "versus", "survival"
+	//
+	// Number each map section starting with "1"
+	//
+	// "Map" is the name of the bsp of the starting map. (do not include
+        // an extension)
+	// "DisplayName" is the name to use for the chapter of the map.
+	// "Image" is the image used for the chapter in the lobby and
+	// settings.
+
+	"modes"
+	{
+		"survival"
+		{
+			"1"		
+			{
+				"Map" "sv_deathstar"
+				"DisplayName" "DeathStar_v05"
+				"Image" "maps/l4d2_DeathStar_v00"
+			}
+		}	
+	}
+
+}

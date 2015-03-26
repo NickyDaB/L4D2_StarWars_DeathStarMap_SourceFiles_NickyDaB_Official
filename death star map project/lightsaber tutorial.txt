@@ -1,0 +1,25 @@
+Lightsaber Tutorial
+
+1. Taking a model through the pipeline: http://steamcommunity.com/sharedfiles/filedetails/?id=159047840
+2. Have two materials.
+	- one for hilt
+	- one for blade 
+for the blade:
+	vtf: white 
+	vmt: https://developer.valvesoftware.com/wiki/$outline
+	
+	
+just might work
+
+
+Lightsaber Swaps
+Golf Club: Standard - Blue
+Fire Axe: Double Bladed - Red
+Pan: Standard - Purple
+Machete: Dual? Blue & Green (otherwise silver)
+Baseball bat: Standard - Red
+Crowbar: Black
+Cricket Bat: Standard - Yellow
+Police Club: 
+Katana: Standard - Green
+Guitar: Double Bladed: Blue
