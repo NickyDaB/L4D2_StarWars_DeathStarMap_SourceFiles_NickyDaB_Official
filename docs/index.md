@@ -4,9 +4,14 @@ Welcome to the site!
 
 ## About
 
-Hi. My name is Nick. I have always loved making cool maps and mod content for the community. I also think that helping others is important. 
+![Nick's Profile picture](https://i.imgur.com/Ah4Q0bO.png "Nick's Profile picture")
+ Hi. My name is Nick. I have always loved making cool maps and mod content for the community. I also think that helping others is important. 
 I’ve uploaded all of the source files that I made to make this deathstar map for L4D2. 
 You can use these source files to make your own awesome mods and community content.
+
+## Youtube video
+
+[![Youtube video of map](http://img.youtube.com/vi/uK_RxYkmLcE/0.jpg)](http://www.youtube.com/watch?v=uK_RxYkmLcE)
 
 ## Using these files for your own projects
 
